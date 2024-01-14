@@ -22,7 +22,7 @@ Além de outros recursos.
 ## 💻 Preview:
 - Veja como ficou o projeto acessando: [o link do Github Pages]()
   
-![Imagem do Projeto]()
+![Imagem do Projeto](assets/img/tela.png)
 
 ## 🤔 O que aprendi com esse projeto:
 - Aprimorar minhas habilidades em HTML, CSS e JavaScript.
