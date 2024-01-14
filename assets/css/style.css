@@ -1,0 +1,154 @@
+@import url("./global.css");
+
+.pokemons li {
+    color: #ffffff;
+}
+
+body {
+    background-color: #eff1f4;
+}
+
+.navegation_bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    height: 100px;
+    margin-bottom: .5rem;
+    gap: 1rem;
+}
+
+.navegation_bar img {
+    max-width: 100px;
+    height: 90%;
+    opacity: 90%;
+}
+
+.content h1 {
+    color: #2C3641
+}
+
+.content {
+    background-color: #ffffff;
+}
+
+.number {
+    color: rgba(102, 102, 102, 0.45);
+    font-size: bold;
+    font-weight: 900;
+}
+
+
+.normal {
+    background-color: #A8A77A;
+}
+
+.fire {
+    background-color: #EE8130;
+}
+
+.water {
+    background-color: #6390F0;
+}
+
+.electric {
+    background-color: #F7D02C;
+}
+
+.grass {
+    background-color: #7AC74C;
+}
+
+.ice {
+    background-color: #96D9D6;
+}
+
+.fighting {
+    background-color: #C22E28;
+}
+
+.poison {
+    background-color: #A33EA1;
+}
+
+.ground {
+    background-color: #E2BF65;
+}
+
+.flying {
+    background-color: #A98FF3;
+}
+
+.psychic {
+    background-color: #F95587;
+}
+
+.bug {
+    background-color: #A6B91A;
+}
+
+.rock {
+    background-color: #B6A136;
+}
+
+.ghost {
+    background-color: #735797;
+}
+
+.dragon {
+    background-color: #6F35FC;
+}
+
+.dark {
+    background-color: #705746;
+}
+
+.steel {
+    background-color: #B7B7CE;
+}
+
+.fairy {
+    background-color: #D685AD;
+}
+
+.pokemon {
+    box-shadow: 1px 1px 7px #a7a7a7;
+}
+
+.pokemon .name {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+}
+
+.pokemon .details .types .type {
+    color: #ffffff;
+    border-radius: 1rem;
+    padding: .3rem .9rem;
+    font-size: .625rem;
+    display: inline-block;
+    text-transform: capitalize;
+    border: solid .5px #e1e1e12f;
+    filter: brightness(1.1);
+}
+
+
+.pokemon .details {
+    background-image: url('https://raw.githubusercontent.com/lbns14/Projeto-Pokedex/main/pokeball.svg');
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-blend-mode: multiply;
+}
+
+.pagination button {
+    border: none;
+    background-color: #6279db;
+    border-radius: 1rem;
+    color: white;
+    padding: .5rem 1rem;
+    font-size: .8rem;
+}
