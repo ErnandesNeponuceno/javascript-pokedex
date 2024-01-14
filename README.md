@@ -20,7 +20,7 @@ Além de outros recursos.
 </div>
 
 ## 💻 Preview:
-- Veja como ficou o projeto acessando: [o link do Github Pages]()
+- Veja como ficou o projeto:
   
 ![Imagem do Projeto](assets/img/tela.png)
 
