@@ -20,7 +20,7 @@ Além de outros recursos.
 </div>
 
 ## 💻 Preview:
-- Veja como ficou o projeto:
+- Veja como ficou o projeto: [GitHub Pages](https://ernandesneponuceno.github.io/pokedex/)
   
 ![Imagem do Projeto](assets/img/tela.png)
 
