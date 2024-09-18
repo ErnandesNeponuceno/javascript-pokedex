@@ -8,7 +8,6 @@ function converterPokemonToHtml(pokemon) {
       <li class="pokemon ${pokemon.type}">
       <span class="number">#${pokemon.number}</span>
       <span class="name">${pokemon.name}</span>
-
         <div class="details ${pokemon.type}">
             <ol class="types">
                 ${pokemon.types.map((type) => `<li class="type ${type}">${type}</li>`).join('')}
@@ -31,9 +30,7 @@ function loadPokemonItens(offset, limit){
 
 loadPokemonItens(offset, limit)
 
-
 loadMore.addEventListener('click', () =>{
     offset += limit
     loadPokemonItens(offset, limit)
 })
-
